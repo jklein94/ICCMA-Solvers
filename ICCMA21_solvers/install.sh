@@ -46,7 +46,7 @@ else
     unzip "$matrixx_archive_name"
     cd "MatrixX-main" || exit
     mv "matrixx" "matrixx.sh"
-    probo2 add-solver -n mu-MatrixX --version ICCMA21 -p ./matrixx.sh --guess --yes
+    probo2 add-solver -n MatrixX --version ICCMA21 -p ./matrixx.sh --guess --yes
     echo "Done installing MatrixX!"
     cd ..
 
