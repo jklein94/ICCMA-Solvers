@@ -1,0 +1,30 @@
+Using 8  cpus
+Rounds completed: 15515
+Rounds completed: 15473
+Rounds completed: 15689
+Rounds completed: 15353
+Rounds completed: 15586
+Rounds completed: 15551
+Rounds completed: 15647
+Rounds completed: 15581
+took:  601.1065630912781
+testing solutions:
+Failed match: [a1,a103,a107,a112,a114,a125,a131,a140,a145,a160,a162,a173,a189,a191,a25,a39,a44,a51,a64,a69,a8,a83,a93,a96]
+Failed match: [a1,a103,a104,a107,a112,a114,a12,a125,a140,a145,a162,a173,a189,a191,a25,a44,a64,a69,a77,a79,a8,a9,a93,a96]
+Failed match: [a1,a103,a104,a105,a107,a112,a114,a12,a125,a131,a140,a145,a150,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a9,a93,a96]
+Failed match: [a1,a103,a107,a112,a114,a115,a122,a125,a127,a140,a145,a162,a173,a189,a19,a191,a25,a44,a51,a56,a64,a69,a70,a74,a8,a87,a93,a96]
+Found match!
+Failed match: [a1,a103,a107,a112,a114,a125,a131,a140,a145,a162,a173,a189,a19,a191,a25,a44,a51,a56,a64,a8,a87,a93,a96]
+Failed match: [a1,a103,a104,a105,a107,a112,a114,a125,a131,a140,a145,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a9,a93]
+Failed match: [a1,a103,a107,a112,a114,a122,a125,a131,a140,a145,a162,a173,a189,a191,a25,a39,a44,a51,a56,a64,a69,a74,a8,a83,a93,a96]
+Failed match: [a1,a103,a104,a107,a112,a114,a125,a131,a140,a145,a160,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a9,a93,a96]
+Failed match: [a1,a103,a105,a107,a112,a114,a115,a12,a122,a125,a140,a145,a146,a154,a156,a160,a162,a173,a176,a189,a19,a191,a25,a44,a51,a56,a6,a64,a69,a70,a8,a87,a93,a96]
+Failed match: [a1,a103,a107,a112,a114,a125,a127,a140,a145,a162,a173,a189,a19,a191,a25,a44,a56,a64,a69,a8,a87,a93,a96,a98]
+Failed match: [a1,a103,a107,a112,a114,a12,a125,a131,a140,a145,a160,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a93,a96]
+Failed match: [a1,a103,a107,a112,a114,a122,a125,a131,a140,a145,a162,a173,a189,a191,a25,a39,a44,a51,a64,a69,a8,a83,a93,a96]
+Failed match: [a1,a103,a107,a112,a114,a12,a125,a131,a140,a145,a162,a173,a189,a191,a25,a44,a51,a6,a64,a69,a77,a79,a8,a9,a93,a96]
+Failed match: [a1,a103,a107,a112,a114,a12,a125,a131,a140,a145,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a93]
+Failed match: [a1,a104,a107,a112,a121,a125,a131,a140,a145,a150,a157,a162,a173,a186,a189,a198,a25,a37,a43,a44,a52,a64,a65,a77,a78,a79,a8,a89,a9,a93]
+Found match!
+Failed match: [a1,a103,a104,a107,a112,a114,a125,a131,a140,a145,a162,a173,a189,a191,a25,a44,a51,a64,a69,a77,a8,a9,a93]
+Failed match: [a1,a103,a107,a112,a114,a125,a131,a140,a145,a162,a173,a189,a191,a25,a39,a44,a51,a64,a69,a8,a83,a93]
