@@ -31,7 +31,7 @@ else
     unzip "$mu_toksia_archive_name" && mv "andreasniskanen-mu-toksia-a56fe626fa87" "mu-toksia"
     cd "mu-toksia" || exit
     ./build.sh
-    probo2 add-solver -n mu-toksia --version ICCMA21 -p ./mu-toksia --guess
+    probo2 add-solver -n mu-toksia --version ICCMA21 -p ./mu-toksia --guess --yes
     echo "Done installing mu-toksia!"
     cd ..
 fi
@@ -46,7 +46,7 @@ else
     unzip "$matrixx_archive_name"
     cd "MatrixX-main" || exit
     mv "matrixx" "matrixx.sh"
-    probo2 add-solver -n mu-MatrixX --version ICCMA21 -p ./matrixx.sh --guess
+    probo2 add-solver -n mu-MatrixX --version ICCMA21 -p ./matrixx.sh --guess --yes
     echo "Done installing MatrixX!"
     cd ..
 
@@ -62,7 +62,7 @@ else
     conarg_archive_name='conarg_x64.tgz'
     tar -xvf $conarg_archive_name -C ./conarg
     cd "conarg" || exit
-    probo2 add-solver -n ConArg --version ICCMA21 -p ./ProboInterface.sh --guess
+    probo2 add-solver -n ConArg --version ICCMA21 -p ./ProboInterface.sh --guess --yes
     echo "Done installing ConArg!"
     cd ..
 
@@ -77,7 +77,7 @@ else
     pyglaf_archive_name='pyglaf-iccma2021.zip'
     unzip $pyglaf_archive_name && mv "ICCMA21" "pyglaf"
     cd "pyglaf" || exit
-    probo2 add-solver -n Pyglaf --version ICCMA21 -p ./pyglaf.py --guess
+    probo2 add-solver -n Pyglaf --version ICCMA21 -p ./pyglaf.py --guess --yes
     echo "Done installing Pyglaf!"
     cd ..
 
@@ -94,7 +94,7 @@ else
     sudo apt install libglib2.0-dev
     sudo update
     gcc taas-harper.c $(pkg-config --cflags --libs glib-2.0) -o taas-harper
-    probo2 add-solver -n Harper --version ICCMA21 -p ./taas-harper --guess
+    probo2 add-solver -n Harper --version ICCMA21 -p ./taas-harper --guess --yes
     echo "Done installing Harper!"
     cd ..
 
@@ -111,7 +111,7 @@ else
     unzip "$a_folio_archive_name" && mv "dp_on_dbs-competition" "A-Folio-DPDB"
     cd "A-Folio-DPDB" || exit
     bash build.sh
-    probo2 add-solver -n A-Folio-DPDB --version ICCMA21 -p ./solver.sh --guess
+    probo2 add-solver -n A-Folio-DPDB --version ICCMA21 -p ./solver.sh --guess --yes
     echo "Done installing A-Folio-DPDB!"
     cd ..
 
@@ -129,7 +129,7 @@ else
     cd "aspartix-v-2021-2" || exit
     sudo chmod +x clingo
     sudo chmod +x clingo440
-    probo2 add-solver -n ASPARTIX-V --version ICCMA21 -p./aspartix-V-interface.sh -f apx --guess
+    probo2 add-solver -n ASPARTIX-V --version ICCMA21 -p./aspartix-V-interface.sh -f apx --guess --yes
     echo "Done installing Aspartix-V!"
     cd ..
 
@@ -145,7 +145,7 @@ else
     sudo apt install libglib2.0-dev
     sudo update
     bash build-taas-fudge.sh
-    probo2 add-solver -n Fudge --version ICCMA21 -p ./taas-fudge --guess
+    probo2 add-solver -n Fudge --version ICCMA21 -p ./taas-fudge --guess --yes
     echo "Done installing Fudge!"
 
 fi
