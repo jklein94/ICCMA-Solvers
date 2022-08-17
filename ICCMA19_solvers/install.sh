@@ -2,6 +2,7 @@
 #Install ICCMA19 solvers
 
 cd yonas || exit
+pip install numba
 probo2 add-solver -n yonas -v ICCMA19 -p ./generic-interface-2019.sh --guess --yes --no_check
 cd ..
 
